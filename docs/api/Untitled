@@ -1,0 +1,6 @@
+docs/api/
+├── openapi.yaml
+├── auth.yaml
+├── invoice.yaml
+├── review.yaml
+└── analytics.yaml

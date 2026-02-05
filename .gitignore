@@ -1,0 +1,97 @@
+# General OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.tmp
+*.bak
+*.orig
+*.rej
+
+# IDE / tooling
+.vscode/
+.idea/
+.fleet/
+*.code-workspace
+
+# Node / JS (if added later)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Flutter mobile app (frontend)
+# =========================
+
+# Flutter & Dart tooling
+mobile-app/.dart_tool/
+mobile-app/.packages
+mobile-app/.flutter-plugins
+mobile-app/.flutter-plugins-dependencies
+mobile-app/.metadata
+
+# Build outputs
+mobile-app/build/
+
+# Android
+mobile-app/android/.gradle/
+mobile-app/android/local.properties
+mobile-app/android/**/GeneratedPluginRegistrant.java
+
+# iOS
+mobile-app/ios/Pods/
+mobile-app/ios/.symlinks/
+mobile-app/ios/Flutter/Flutter.framework/
+mobile-app/ios/Flutter/Flutter.podspec
+
+# =========================
+# Laravel backend
+# =========================
+
+backend/vendor/
+backend/node_modules/
+
+# Environment & config secrets
+backend/.env
+backend/.env.*
+
+# Laravel caches & logs
+backend/storage/*.key
+backend/storage/logs/
+backend/storage/framework/cache/
+backend/storage/framework/sessions/
+backend/storage/framework/views/
+backend/storage/framework/testing/
+backend/bootstrap/cache/*.php
+
+# PHPUnit
+backend/.phpunit.result.cache
+
+# =========================
+# Database / local data
+# =========================
+
+# Project-level database directory
+database/*.sqlite
+database/*.sqlite3
+database/*.db
+database/*.sql
+database/*.bak
+
+# Any stray local DB files at root
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.bak
+
+# =========================
+# Misc / env
+# =========================
+
+.env
+.env.*
+composer.phar
