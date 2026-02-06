@@ -25,10 +25,10 @@ class Validators {
     return null;
   }
 
-  static String? confirmPassword(String? value, String password) {
-    final err = password(value);
+  static String? confirmPassword(String? value, String expectedPassword) {
+    final err = Validators.password(value);
     if (err != null) return err;
-    if (value != password) {
+    if (value != expectedPassword) {
       return 'Passwords do not match';
     }
     return null;
