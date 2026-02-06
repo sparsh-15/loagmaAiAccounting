@@ -7,12 +7,31 @@
 .env
 .env.backup
 .env.production
+.env.testing
 .phpunit.result.cache
 Homestead.json
 Homestead.yaml
 auth.json
 npm-debug.log
 yarn-error.log
+yarn-debug.log
+pnpm-debug.log
 /.fleet
 /.idea
 /.vscode
+
+# Laravel specific
+/storage/framework/cache/data/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/framework/cache/data/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/logs/.gitignore
+
+/bootstrap/cache/*
+!/bootstrap/cache/.gitignore
+
+# Composer
+composer.phar

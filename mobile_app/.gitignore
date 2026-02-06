@@ -1,0 +1,88 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+*.swo
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+.gradle/
+local.properties
+
+# VS Code
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+
+# Build outputs
+build/
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Coverage
+coverage/
+
+# Symbolication
+app.*.symbols
+
+# Obfuscation
+app.*.map.json
+
+# Android
+android/.gradle/
+android/local.properties
+android/**/GeneratedPluginRegistrant.java
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/key.properties
+*.jks
+
+# iOS / macOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework/
+ios/Flutter/Flutter.podspec
+ios/Runner.xcworkspace/
+macos/Flutter/ephemeral/
+*.mode1v3
+*.mode2v3
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.xcscmblueprint
+
+# Linux
+linux/flutter/ephemeral/
+
+# Windows
+windows/flutter/ephemeral/
+
+# Web
+.webpack/

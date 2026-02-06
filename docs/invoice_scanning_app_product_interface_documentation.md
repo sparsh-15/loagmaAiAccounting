@@ -481,3 +481,8 @@ infra/
 - Supports async and AI-heavy workloads
 
 This structure is suitable for **long-term enterprise products**, not MVP-only systems.
+
+
+
+##Counting the products in inventory with the camera scanning to get the updated stock of inventory
+
